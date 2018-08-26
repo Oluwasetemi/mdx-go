@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <style>body{margin:0;font-family:system-ui,sans-serif}</style>
+    <title data-head="true">mdx-go</title><meta name="description" content="Lightning-fast MDX-based dev server" data-head="true"/><meta name="twitter:card" content="summary_large_image" data-head="true"/><meta name="twitter:site" content="@jxnblk" data-head="true"/><meta name="twitter:title" content="mdx-go" data-head="true"/><meta name="twitter:description" content="Lightning-fast MDX-based dev server" data-head="true"/><meta name="twitter:image" content="https://jxnblk.com/mdx-go/card.png" data-head="true"/>
+  </head>
+  <body>
+    <div id=root><div class="mdx-base-theme" style="--h1:3rem;--h2:2.25rem;--h3:1.5rem;--h4:1.125rem;--h5:1rem;--h6:.75rem;--line-height:1.3333333333333333;--max-width:1024px;--m1:0.6666666666666666em;--m2:1.3333333333333333em;--m3:2.6666666666666665em;--m4:5.333333333333333em;--color:black;--background:white;--link:#07c;--pre:#000;--pre-background:#f6f8fa;--radius:2px"><style>
+.mdx-base-theme {
+  line-height: var(--line-height);
+  max-width: var(--max-width);
+  margin: auto;
+  padding: var(--m2);
+  color: var(--color);
+  background-color: var(--background);
+}
+
+.mdx-a {
+  color: var(--link);
+}
+
+.mdx-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mdx-h1 { font-size: var(--h1) }
+.mdx-h2 { font-size: var(--h2) }
+.mdx-h3 { font-size: var(--h3) }
+.mdx-h4 { font-size: var(--h4) }
+.mdx-h5 { font-size: var(--h5) }
+.mdx-h6 { font-size: var(--h6) }
+
+.mdx-h1, .mdx-h2, .mdx-h3 {
+  margin-top: var(--m1);
+  margin-bottom: 0;
+}
+
+.mdx-h4, .mdx-h5, .mdx-h6,
+.mdx-p, .mdx-ol, .mdx-ul,
+.mdx-img, .mdx-blockquote {
+  margin-top: var(--m2);
+  margin-bottom: var(--m2);
+}
+
+.mdx-pre, .mdx-code {
+  font-family: Menlo, monospace;
+  font-size: var(--h5);
+}
+
+.mdx-pre {
+  padding: var(--m1);
+  color: var(--pre);
+  background-color: var(--pre-background);
+  border-radius: var(--radius);
+}
+
+.mdx-blockquote {
+  font-size: var(--h3);
+  font-weight: bold;
+}
+</style><div><p class="mdx-p"><a class="mdx-a" href="/mdx-go/">Home</a></p><h1 class="mdx-h1" id="components"><a href="#components" style="text-decoration:none;color:inherit">Components</a></h1><h2 class="mdx-h2" id="head"><a href="#head" style="text-decoration:none;color:inherit">Head</a></h2><p class="mdx-p">Renders head content</p><pre class="language-mdx mdx-pre">import { Head } from &#x27;mdx-go&#x27;
+
+&lt;Head&gt;
+  &lt;title&gt;Hello Title&lt;/title&gt;
+&lt;/Head&gt;
+
+# Page with title
+</pre><h2 class="mdx-h2" id="link"><a href="#link" style="text-decoration:none;color:inherit">Link</a></h2><p class="mdx-p">Link component for handling client-side routing.
+This component is used as the default <code class="mdx-code">&lt;a&gt;</code> tag in MDX to support routing within react-router.</p><pre class="language-jsx mdx-pre">import { Link } from &#x27;mdx-go&#x27;
+</pre></div></div></div>
+    <script src='/mdx-go/main.js'></script>
+  </body>
+</html>
